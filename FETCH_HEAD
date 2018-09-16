@@ -1,0 +1,50 @@
+I used the function I learned from the video lecture, in order to read python via terminal, you will have to put “python” and then then name of the file name, so that terminal will be able to read the code from .py file.
+
+1-2  I used pip install function to Install the package.
+
+
+Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 12:04:33) 
+[GCC 4.2.1 Compatible Clang 4.0.1 (tags/RELEASE_401/final)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+
+
+1-3. 
+I used wget(finally it works after download the web that you posted on canvas once again)
+
+
+1-4
+cat index.html | grep -ni Colorado | wc -l. This is what I did to count how many Colorado shows in the web. For some reason, I got 80 while most of the kids told me that they got 81.
+
+
+
+
+1.5
+This time I use “grep -i Colorado index.html > Search_results.html” 
+
+
+
+
+
+
+
+
+
+
+
+CU has recently come across a variety of findings stating that regular gym attendance can lead to a higher GPA. In an effort to understand this effect and how they might update their services and facilities to encourage students to be active, they want to turn to the data to both understand the current state of gym use, its potential effects on students, and how they might target specific facilities or programs to improve attendance.
+ 
+First, identify three hypothetical datasets that CU can provide you to support this effort (you have a sense of what kinds of data they may have available, just describe what data you would use). Then, use the CoNVO method to scope a project that will solve this problem. Provide sufficient detail in your response such that someone could reason about and execute your plan.   
+
+The three data that I need for analyzing this finding from Cu would be… 1, Students who go to Rec regularly and students who don’t. 2, Both those who attend to gym regularly and those who don’t Gpa. 3. Last but not least all the students SAT or Act score when they apply to CU.
+Based on my understanding CoNVO is abbreviation of Context(exposition), Need(conflict), Vision(resolution) and Outcome(outcome is like the conclusion).
+Apparently, working out frequently can bring numerous benefits for students’ health; however, recently we found something interesting, namely, regular attendance to gym actually helps students to achieve a higher GPA. We concluded this finding by comparing the two datasets, one students who go to gym frequently’s GPA, the other one, Gpa for those who don’t. And the result is very satisfying, higher gym attendance leads to averaging .5 GPA higher than lower gym attendance. I know some might say “it’s just an coincidence” or “what if those body builders came to school smart already?”. And that is why we also have the data for they all’s SAT and ACT score. We exclude for those who came with 2000 SAT, and 31 ACT(or above) score so that our analysis will be more realistic.
+
+
+In class today, you learned about a historical instance of data science in practice. Find three additional problems in history that were addressed using data. For each of these problems, describe the following: 
+
+1. What was the problem?  2. What data was available?  3. What methods were used?  4. What did they find?  5. If you were to tackle the same problem today, what would you do differently and why? 
+1, Google was trying to use their searching engine to figure out what is the flu that currently affects worldwide. They found that some key words(quantitative) can be linked to certain diseases. The result was significantly successful, google’s predictions were known 7-14 days earlier than prediction from WHO. Since the example was quit fantastic already, one thing I will do to make it a better ending is corporate with other medical websites, for example WebMD. In that way, Google can have a better prediction(massive data from WebMD), and WebMD will receive a a better solution for the patients.
+
+2, ImageNet, collected millions of images(both qualitative and quantitative) of cars in Boston, found that people in Boston drive better(more expansive) cars compare to other states. As a result, they made a conclusion that people in Boston are wealthy. It seems pretty fair to make that conclusion “Better car, better life”; however, I think they ignored some details that can influence this practice. For example, Boston is very close to NewYork City(another wealthy City), how can we be so sure that that fancy cars were all from Boston, instead of other cities? Second. Boston is one of the most popular tourist city is the world, would it be possible that those luxurious cars were actually owned by the tourists, they rent he cars, instead of owning them. Therefore, if I am to tackle the problem these days, I will analyze the data not just in Boston but also cities around it, additionally, I will be collecting the tourism data, which helps me to truly understand the income of “Real” Boston people.
+
+3, How many of you still remember that around 10 years ago, Google Translation was considered unreliable, and inaccurate. Google collected 300 million English words, which is an enormous dataset for a language. I mean most of the English native speaker will only use 100000 words in their whole life. In reality, those 3m vocabularies didn’t make Google translation valuable at all, it still make unacceptable mistakes. The reason why they failed is because they underestimated the complexity of  English (or any language). If I were able to make an adjustment for Google that would be applying AI. We let the machine to learn English, so that the machine would be able to make the translation more natural.
